@@ -1,0 +1,14 @@
+/* No scrollbar styling */
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    background-color: #ff80b3;
+    color: white;
+}
